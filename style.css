@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .body{
+    background-image: url(assets/bg.png);
+    margin: 0px 140px;
+    font-size: 16px;
+  }
+  /* Nav Section */
+  .nav-section{
+    margin: 20px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .nav-logo{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+  }
+  .nav-logo>img{
+    width: 62px;
+    height: 62px;
+  }
+  .nav-logo>h1{
+    font-size: 2rem;
+  }
+  .nav-anchor>a{
+   text-decoration: none;
+   margin-left: 32px;
+   font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 700;
+}
+.home{
+    color: #FEA301;
+}
+.about{
+    color: #01ACFD;
+}
+.facilities{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+.nav-btn>button{
+    background-color: #FEA301;
+    border: none;
+    padding: 10px;
+    color:white;
+    border-radius: 12px;
+    width: 195px;
+    height: 50px;
+    font-size:20px;
+    font-weight: 600;
+}
+/* Banner Section */
+.banner-section{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-info>h1{
+font-size: 3.5rem;
+font-weight: 700;
+line-height: 61px;
+text-align: left;
+margin-bottom: 24px;
+}
+.banner-info>p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.btn-primary{
+padding: 10px 47px;
+border-radius: 12px;
+background-color:#111111;
+color:white ;
+font-size: 1.25rem;
+}
+/* Curriculum Section */
+.curriculum-title>h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 57.5px;
+    text-align: center; 
+    margin: 70px 0px;
+}
+.curriculum-cards{
+    display: flex;
+    gap: 30px;
+}
+.curriculum-cards>div{
+    padding: 52px 40px;
+    text-align: center;
+    }
+.card-1{
+background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1),rgba(255, 255, 255, 0));
+
+}
+.card-1>h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;  
+    margin-bottom: 32px;
+}.card-2>h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;  
+    margin-bottom: 32px;
+}.card-3>h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;  
+    margin-bottom: 32px;
+}
+.card-1>p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #808080; 
+    margin-bottom: 32px;
+}.card-2>p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #808080; 
+    margin-bottom: 32px;
+}.card-3>p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #808080; 
+    margin-bottom: 32px;
+}
+.card-1>a{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #64C8FF;
+}
+.card-2>a{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color:#F0AA00;
+}
+.card-3>a{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color:#8700FF;
+}
+
+
