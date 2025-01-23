@@ -58,6 +58,9 @@ font-weight: 700;
     font-size:20px;
     font-weight: 600;
 }
+.nav-btn>i{
+    display: none;
+}
 /* Banner Section */
 .banner-section{
     margin: 0px 140px;
@@ -425,7 +428,11 @@ text-align: left;
     }
     .nav-btn>button{
 display: none;
-    }
+}
+.nav-btn>i{
+display:inline-block;
+font-size: 3rem;
+}
     .nav-anchor{
         display: none;
     }
