@@ -7,12 +7,11 @@
   }
   .body{
     background-image: url(assets/bg.png);
-    margin: 0px 140px;
     font-size: 16px;
   }
   /* Nav Section */
   .nav-section{
-    margin: 20px 0px;
+    margin: 0px 140px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -61,6 +60,7 @@ font-weight: 700;
 }
 /* Banner Section */
 .banner-section{
+    margin: 0px 140px;
     display: flex;
     gap: 50px;
     justify-content: space-between;
@@ -97,17 +97,36 @@ font-size: 1.25rem;
     margin: 70px 0px;
 }
 .curriculum-cards{
+    margin: 0px 140px;
     display: flex;
     gap: 30px;
+    flex: 1;
 }
 .curriculum-cards>div{
     padding: 52px 40px;
     text-align: center;
+    flex: 1;
+    
     }
-.card-1{
-background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1),rgba(255, 255, 255, 0));
-
-}
+    .card-1{
+        background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #DEF5FF , #FFFFFF);
+    border: 1px solid #DEF5FF;
+    box-shadow: 0px 0px 28.3px 0.94px #FFFFFF inset;
+    border-radius: 18px;
+    }.card-2{
+        background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) , rgb(255, 255, 255));
+    border: 1px solid #FFF4DC;
+    box-shadow: 0px 0px 28.3px 0.94px #FFFFFF inset;
+    border-radius: 18px;
+    }.card-3{
+        background-color: #FFFFFF;
+        background-image: linear-gradient(to bottom, #EEE1FF, #FFFFFF);
+        border: 1px solid #F2E8FF;
+        box-shadow: 0px 0px 28.3px 0.94px #FFFFFF inset; 
+        border-radius: 18px;
+    }
 .card-1>h3{
     font-size: 1.5rem;
     font-weight: 700;
@@ -164,5 +183,136 @@ background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1),rgba(255, 25
     text-decoration: none;
     color:#8700FF;
 }
-
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.sidebar>div{
+    margin-top: 80px;
+    background-color:#FEA301;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 900;
+text-align:center;
+color: white;
+height: 60px;
+width: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* Stories Section */
+.stories-section{
+    margin: 0px 140px;
+    width: 100%;
+}
+.stories-cards{
+    display: flex;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.stories-title>h1{
+font-size: 46px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 60px;
+}
+.story-1{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: #FFFFFF;
+}
+.story-1>button{
+    width:174.51px;
+    height: 47.93px;
+    top: 314.14px;
+    left: 38.35px;
+    padding: 14.38px 18.88px 15.34px 19.17px;
+    border-radius: 45px;  
+    color: #FFFFFF;  
+    background-color: #3CD8E8;
+    border: none;
+}
+.story-1>h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;  
+    margin: 40px 0px;
+}
+.story-1>p{
+font-size: 15.34px;
+font-weight: 500;
+text-align: left;
+color: #666666;
+margin:30px 0px;
+}
+.story-2 .story-3 .story-4 .story-5>h3{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align:center;  
+}
+.story-2,.story-3,.story-4,.story-5{
+    background-color: white;
+    border-radius:16px ;
+}
+.footer-section{
+    background-color: #01ACFD;
+margin:60px 0px 0px 0px;
+display: flex;
+justify-content: space-around;
+padding: 120px;
+}
+.education{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 10px;
+}
+.education>img{
+    width: 82px;
+    height: 82px;
+}
+.education>h1{
+font-size: 42.14px;
+font-weight: 700;
+text-align: left;
+}
+.footer-para{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #FFFFFF; 
+}
+.footer-about> h3{
+    color: #FFFFFF;
+font-size: 1.5rem;
+font-weight: 700;
+text-align: left;
+}
+.footer-about>a{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.icon-title>h2{
+    color: #FFFFFF;
+    font-family: Quicksand;
+font-size: 1.5rem;
+font-weight: 700;
+text-align: left;
+}
+.icon-container{
+    display: flex;
+    gap: 8px;
+}
 
