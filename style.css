@@ -420,6 +420,7 @@ text-align: left;
     display: flex;
     gap: 8px;
 }
+/* Make responsive */
 @media screen and (max-width:576px) {
     .nav-section{
         margin: 0px 20px;
@@ -430,7 +431,7 @@ text-align: left;
 display: none;
 }
 .nav-btn>i{
-display:inline-block;
+display:contents;
 font-size: 3rem;
 }
     .nav-anchor{
